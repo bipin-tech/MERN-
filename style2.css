@@ -1,0 +1,283 @@
+.table1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #96D4D4;
+  }
+
+.abc {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #555;
+  }
+  
+.pqr a {
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #ADD8E6;
+  }
+  
+  
+.pqr a:hover {
+    background-color: #FFA500;
+    color: white;
+  }
+
+
+.pqr {
+    text-align: center;
+  }
+  
+.pqr:last-child {
+    border-bottom: none;
+  }
+
+.xyz{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    padding-right: 0px;
+    width: 310px;
+    overflow: hidden;
+    border: 1px solid #555;
+    
+  }
+
+.def{
+    text-align: center;
+    display: inline;
+    border-right: 1px solid blue;
+  }
+.def:last-child {
+    border-right: none;
+  }
+.def a {
+    color: blue;
+    background-color: #dddddd;
+    padding: 8px;
+    text-decoration: none;
+  }
+.def a:hover {
+    background-color: #938e8e;
+  }
+
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  #mySidenav a {
+    position: absolute;
+    left: -80px;    
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 10px;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #java {
+    top: 980px;
+    background-color: #04AA6D;
+  }
+  
+  #html {
+    top: 1040px;
+    background-color: #2196F3;
+  }
+  
+  #css {
+    top: 1100px;
+    background-color: #f44336;
+  }
+  
+  #Bootstrap {
+    top: 1160px;
+    background-color: #555
+  }
+  .bodybg {
+    padding-left: 11em;
+      font-family: Georgia, "Times New Roman",
+        Times, serif;
+    }
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+.navbar li {
+        background: white;
+        margin: 0.5em 0;
+        padding: 0.3em;
+        border-right: 1em solid black }
+.navbar a {
+        text-decoration: none }
+
+address {
+        margin-top: 1em;
+        padding-top: 1em;
+        border-top: thin dotted }
+.ah1 {
+    font-family: Helvetica, Geneva, Arial,
+            SunSans-Regular, sans-serif }
+
+.ap {
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #d8da3d
+}
+
+/* Bordered form */
+#formv {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  #formv  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  .but1 {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  .but1:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    color: white;
+    border: white;
+    border-radius: 10%;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  .reg{
+    background-color: #A22A57;
+  }
+  .mainreg{
+    background-color: #752041;
+    margin-left:200px;
+    margin-right:200px;
+    padding: 10px;
+  }
+  #form2 {
+    border: 3px solid #752041;
+    color: white;
+  }
+  #form2 input[type=text], input[type=password], input[type=tel], input[type=number] {
+    width: 350px; 
+    padding: 5px;
+    font-size: 0.9em;
+  }
+  #form2 option{
+    width: 350px; 
+    padding: 5px;
+    font-size: 0.9em;
+  }
+  #form2 button{
+    width: 350px; 
+    padding: 5px;
+    font-size: 0.9em;
+    border-radius: 10px;
+  }
+  .checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox-round:checked {
+    background-color: gray;
+}
